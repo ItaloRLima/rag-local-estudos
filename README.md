@@ -50,10 +50,9 @@ source .venv/bin/activate
 Com o ambiente ativado, instale as bibliotecas necessárias:
 
 ```sh
-pip install fastapi uvicorn pydantic requests langchain langchain-community chromadb langchain-chroma langchain-ollama pypdf
+pip install -r "requirements.txt"
 ```
 
-*(Ou, se você gerou um requirements.txt, rode: `pip install -r requirements.txt`)*
 
 ## Como Executar (Ordem de Execução)
 
